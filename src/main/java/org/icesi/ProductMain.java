@@ -53,14 +53,18 @@ public class ProductMain {
                     System.out.println("prducto a comprar");
                     String purchasedProduct = scanner.nextLine();
 
-                    System.out.println("ingrese su nombre de comprador");
+                    System.out.println("ingrese su nombre de comprador(nombre de usuario)");
                     String buyer = scanner.nextLine();
                     controler.addOrder(purchasedProduct,buyer);
                     break;
 
                 /*case 4:
-                    System.out.println("Seleccionaste la opción 4");
-                    // Agrega lógica para la opción 4
+                    System.out.print("ingrese su nombre de usuario: ");
+                    String Exbuyer = scanner.nextLine();
+                    System.out.println("prducto a aliminar");
+                    String EXpurchasedProduct = scanner.nextLine();
+
+                    controler.deleteOrder(Exbuyer,EXpurchasedProduct);
                     break;
 
                 case 5:

@@ -3,15 +3,20 @@ package org.icesi;
 import java.util.Date;
 
 public class ProductOrder {
-    private Product purchasedProduct;
     private Users buyer;
+    private Product purchasedProduct;
     private Date orderDate;
 
     // Constructor
-    public ProductOrder(Product purchasedProduct, Users buyer, Date orderDate) {
-        this.purchasedProduct = purchasedProduct;
+    public ProductOrder(Users buyer,Product purchasedProduct, Date orderDate) {
         this.buyer = buyer;
+
+        this.purchasedProduct = purchasedProduct;
+
         this.orderDate = orderDate;
+    }
+
+    public ProductOrder(String purchasedProduct, String buyer) {
     }
 
     // Getter and Setter methods for purchasedProduct

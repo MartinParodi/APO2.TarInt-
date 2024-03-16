@@ -9,7 +9,7 @@ public class ControllerProduct {
     private LinkedList<ProductOrder> orderList;
 
     public ControllerProduct() {
-        this.usersList = new LinkedList<>();
+        this.usersLists = new LinkedList<>();
         this.productList = new LinkedList<>();
         this.orderList = new LinkedList<>();
     }
@@ -18,7 +18,7 @@ public class ControllerProduct {
         // Validate input data (optional but recommended)
 
         Users newUser = new ConcreteUsers(name, lastName, userName, password, bornDate, direction, tell, email);
-        usersList.add(newUser);
+        usersLists.add(newUser);
     }
 
     public void addProduct(String nombreProducto, String descripcion, String tipoProducto) {
@@ -65,12 +65,12 @@ public class ControllerProduct {
         }
     }
 
-    public void deleteOrder(String nombreProducto, Date orderDate) {
+    public void deleteOrder(String buyer, String nombreProducto) {
         ProductOrder orderToDelete = null;
 
 
         for (ProductOrder order : orderList) {
-            if (order.getPurchasedProduct().getNombreProducto().equals(nombreProducto) && order.getOrderDate().equals(orderDate)) {
+            if (order.getBuyer().equals(buyer) && order.getPurchasedProduct().getNombreProducto().equals(nombreProducto)) {
                 orderToDelete = order;
                 break;
             }
@@ -78,9 +78,22 @@ public class ControllerProduct {
 
         if (orderToDelete != null) {
             orderList.remove(orderToDelete);
-            System.out.println("Orden eliminada para el producto: " + nombreProducto + " en la fecha: " + orderDate);
+            System.out.println("Orden eliminada para el producto: " + nombreProducto + " a nombre del comprador: " + buyer);
         } else {
-            System.out.println("No se encontró ninguna orden para el producto: " + nombreProducto + " en la fecha: " + orderDate);
+            System.out.println("No se encontró ninguna orden para el producto: " + nombreProducto + " a nombre de: " + buyer);
+        }
+    }
+    public void showOrdersByBuyer(String buyer) {
+        for (ProductOrder order : orderList) {
+            if (order.getBuyer().equals(buyer)) {
+                System.out.println("Producto: " + order.getPurchasedProduct().getNombreProducto());
+                System.out.println("Precio: " + order.getPurchasedProduct().getDescripcion());
+                System.out.println("Fecha de compra: " + order.getOrderDate());
+
+            }else {
+                System.out.println("No se encontraron ordenes a nombre de: " + buyer);
+            }
+            }
         }
     }
 

@@ -2,9 +2,9 @@ package org.icesi;
 
 public abstract class Product implements ProductType {
 
-    public static final String nombreProducto;
-    public static final String describcion;
-    public static final String tipoProducto;
+    private static String nombreProducto;
+    private static  String describcion;
+    private static  String tipoProducto;
 
     public Product(String nombreProducto, String describcion, String tipoProducto) {
         this.nombreProducto = nombreProducto;
@@ -23,11 +23,11 @@ public abstract class Product implements ProductType {
 
     // Métodos getter y setter para descripción
     public String getDescripcion() {
-        return descripcion;
+        return describcion;
     }
 
     public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+        this.describcion = descripcion;
     }
 
     // Métodos getter y setter para tipoProducto

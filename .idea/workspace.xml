@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a286f71f-883c-44ab-9ef1-8c86767efdc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ControllerProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/icesi/Users.java" afterDir="false" />
+    <list default="true" id="a286f71f-883c-44ab-9ef1-8c86767efdc7" name="Changes" comment="agregar usuario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ControllerProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ControllerProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +86,17 @@
       <workItem from="1709840236209" duration="3188000" />
       <workItem from="1710337357213" duration="3984000" />
       <workItem from="1710511779120" duration="788000" />
-      <workItem from="1710590926566" duration="1456000" />
+      <workItem from="1710590926566" duration="5767000" />
     </task>
+    <task id="LOCAL-00001" summary="agregar usuario">
+      <option name="closed" value="true" />
+      <created>1710592469247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710592469248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="agregar usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregar usuario" />
   </component>
 </project>
