@@ -58,19 +58,21 @@ public class ProductMain {
                     controler.addOrder(purchasedProduct,buyer);
                     break;
 
-                /*case 4:
+                case 4:
                     System.out.print("ingrese su nombre de usuario: ");
                     String Exbuyer = scanner.nextLine();
-                    System.out.println("prducto a aliminar");
+                    System.out.println("ingrese el prducto a aliminar");
                     String EXpurchasedProduct = scanner.nextLine();
 
                     controler.deleteOrder(Exbuyer,EXpurchasedProduct);
                     break;
 
                 case 5:
-                    System.out.println("Seleccionaste la opción 5");
-                    // Agrega lógica para la opción 5
-                    break;*/
+                    System.out.print("ingrese su nombre de usuario: ");
+                    String SEbuyer = scanner.nextLine();
+                    System.out.println("ingrese el prducto a consultar");
+                    String SEpurchasedProduct = scanner.nextLine();
+                    break;
 
                 case 6:
                     System.out.println("Gracias por usar la aplicación. ¡Hasta luego!");

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a286f71f-883c-44ab-9ef1-8c86767efdc7" name="Changes" comment="agregar usuario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ControllerProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ControllerProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1709840236209" duration="3188000" />
       <workItem from="1710337357213" duration="3984000" />
       <workItem from="1710511779120" duration="788000" />
-      <workItem from="1710590926566" duration="5767000" />
+      <workItem from="1710590926566" duration="6317000" />
     </task>
     <task id="LOCAL-00001" summary="agregar usuario">
       <option name="closed" value="true" />
