@@ -70,6 +70,9 @@ public class ProductMain {
                 case 5:
                     System.out.print("ingrese su nombre de usuario: ");
                     String SEbuyer = scanner.nextLine();
+
+                    controler.showOrdersByBuyer(SEbuyer);
+
                     System.out.println("ingrese el prducto a consultar");
                     String SEpurchasedProduct = scanner.nextLine();
                     break;
