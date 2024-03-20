@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a286f71f-883c-44ab-9ef1-8c86767efdc7" name="Changes" comment="agregar usuario">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/icesi/ProductMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="a286f71f-883c-44ab-9ef1-8c86767efdc7" name="Changes" comment="agregar usuario" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +82,7 @@
       <workItem from="1710511779120" duration="788000" />
       <workItem from="1710590926566" duration="6502000" />
       <workItem from="1710626272324" duration="775000" />
+      <workItem from="1710771492993" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="agregar usuario">
       <option name="closed" value="true" />
